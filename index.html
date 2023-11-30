@@ -3,17 +3,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/public/styles.css">
+    <link rel="stylesheet" href="/dist/output.css">
 </head>
 <body>
-    <div><!--wrapper of tailwindcss content-->
+    <div class="text-gray-600"><!--wrapper of tailwindcss content-->
         <div>
             <nav>
-                <h1>
+                <h1 class="font-bold uppercase p-4 border-b border-gray-300">
                     <a href="/">Mon super restaurant</a>
                 </h1>
                 <ul>
-                    <li>
+                    <li class="text-gray-700 font-bold">
                         <a href="#">
                             <span>
                                 Accueil
@@ -37,29 +37,29 @@
                 </ul>
             </nav>
         </div>
-        <main>
+        <main class="px-16 py-6">
             <div>
                 <a href="#">Se connecter</a>
                 <a href="#">creer un compte</a>
             </div>
 
             <header>
-                <h2>
+                <h2 class="text-gray-700 text-6xl font-semibold">
                     Recettes
                 </h2>
-                <h3>
+                <h3 class="text-2xl font-semibold">
                     Pour les tailwinders
                 </h3>
             </header>
 
             <div>
-                <h4>
+                <h4 class="font-bold mt-12 pb-2 border-b border-gray-400">
                     Les dernieres recettes
                 </h4>
-                <div>
+                <div class="mt-8">
                     <!-- Cartes (cards) de nos recettes-->
                     <div>
-                        <img src="" alt="">
+                        <img src="/img/steak.jpg" alt="Steak Frites">
                         <div>
                             <span>
                                 Steak Frites
@@ -71,10 +71,10 @@
                     </div>
                 </div>
 
-                <h4>
+                <h4 class="font-bold mt-12 pb-2 border-b border-gray-400">
                     Les recettes les plus populaires
                 </h4>
-                <div>
+                <div class="mt-8">
                     <!--Cartes de nos recettes les plus populaires-->
                 </div>
 
